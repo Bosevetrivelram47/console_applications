@@ -67,7 +67,7 @@ public class Passenger
 
 	@Override
 	public String toString() {
-		return "Passenger [id=" + id + ", name=" + name + ", age=" + age + ", preference=" + preference
-				+ ", ticketType=" + ticketType + ", seatNumber=" + seatNumber + "]";
+		return "Passenger Ticket id: " + id + "\nPassenger Name: " + name + "\nPassenger Age: " + age
+				+ "\nPassenger Seat Number: " + seatNumber + "\nPassenger Preference: " + preference;
 	}
 }
